@@ -23,10 +23,12 @@
 
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 #container {
-    margin-top: 5%;
+    margin-top: 2%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -52,3 +54,10 @@ footer {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+button {
+    margin-top: 2%;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
